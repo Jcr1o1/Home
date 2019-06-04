@@ -29,6 +29,10 @@ h2{
 	text-decoration: underline;
 	letter-spacing: 0.2 em
 }
+p{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:48px; 
+}
 .container{
 	width: 80%;
 	margin: auto;
@@ -42,4 +46,19 @@ h2{
 }
 .box-1{
 	border:2px solid black;
+}
+.box1{
+	width 95%;
+	height: 450px;
+}
+.box2{
+	margin: auto;
+}
+.box3{
+	width: 20%;
+	float: left;
+}
+.box4{
+	width: 20%;
+	float: right;
 }
