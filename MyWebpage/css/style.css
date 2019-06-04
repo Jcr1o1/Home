@@ -2,13 +2,16 @@ h1{
 	text-align: center;
 	color: white;
 }
-ul{
+ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333
-}
+	background-color: #333;
+	position: -webkit-sticky; 
+	position: sticky;
+	top: 0;
+  }
 li{
 	float: left;
 }
@@ -37,16 +40,17 @@ p{
 	width: 80%;
 	margin: auto;
 }
+.container2{
+	width: 80%;
+	margin: auto;
+}
 .box-1{
-	background-color: #333
-	color#fff
-	border:5px red solid;
+border: 4px double red;
+	font-size: 30%;
 	padding: 50px;
 	margin: 20px;		
 }
-.box-1{
-	border:2px solid black;
-}
+
 .box1{
 	width 95%;
 	height: 450px;
